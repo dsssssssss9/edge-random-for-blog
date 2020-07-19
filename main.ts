@@ -1,7 +1,7 @@
 let strip = neopixel.create(DigitalPin.P0, 10, NeoPixelMode.RGB)
 strip.clear()
 strip.show()
-let Bright = 64
+let Bright = 48
 let Delay = 128
 basic.forever(function () {
     for (let index = 0; index <= 9; index++) {
