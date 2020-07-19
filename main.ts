@@ -1,5 +1,4 @@
 let strip = neopixel.create(DigitalPin.P0, 10, NeoPixelMode.RGB)
-strip.setBrightness(64)
 strip.clear()
 strip.show()
 let Bright = 64
