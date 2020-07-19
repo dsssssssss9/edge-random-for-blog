@@ -1,9 +1,9 @@
 let strip = neopixel.create(DigitalPin.P0, 10, NeoPixelMode.RGB)
-strip.setBrightness(168)
+strip.setBrightness(64)
 strip.clear()
 strip.show()
-let Bright = 196
-let Delay = 0
+let Bright = 64
+let Delay = 128
 basic.forever(function () {
     for (let index = 0; index <= 9; index++) {
         strip.setPixelColor(index, neopixel.rgb(randint(0, Bright), randint(0, Bright), randint(0, Bright)))
